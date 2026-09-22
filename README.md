@@ -1,4 +1,6 @@
-# AutoSecureLogin IS NOW AutoSecureNetwork
+# AutoSecureNetwork
+> Previously know as AutoSecureLogin
+
 Easy to configure automation to automatically secure the Subnets where run your Public Instances by NACL DENY entries feeded by GuardDuty findings.
 It uses CloudFormation, Lambda (Python - ARM), CloudWatch Events, DynamoDB and Amazon GuardDuty (should be already working on the account).
 
@@ -10,7 +12,7 @@ It also has a configurable duration of the block (in days) and a Max number of I
 
 If it's not working on your Region create an Issue and I will fix it.
 
-> Version 2.1.0
+> Version 2.1.1
 
 ### Files:
 - autoSecureLogin-template.yml, CloudFormation template to Run in your account, it is already in a public S3 bucket
